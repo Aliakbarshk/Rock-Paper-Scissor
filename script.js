@@ -10,7 +10,7 @@ function computerChoice() {
 
 function checkWinner(player, computer) { 
     if (player === computer) { 
-       document.getElementById("tie-sound").play(); // Tie sound play karein
+       document.getElementById("tie-sound").play(); 
        return "It's a tie! 😲";
        
     }
